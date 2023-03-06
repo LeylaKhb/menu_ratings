@@ -13,7 +13,6 @@ public class MenuRatingsGenerator {
     private final String rawContent;
     private final Gson gson = new Gson();
     private static Map<Long, TreeMap<String, Integer>> menusAndValuesList = new TreeMap<>();
-//    private static Map<Long, TreeMap<Integer, String>> menusAndValuesList = new TreeMap<>();
 
     public MenuRatingsGenerator(String rawContent) {
         this.rawContent = rawContent;
